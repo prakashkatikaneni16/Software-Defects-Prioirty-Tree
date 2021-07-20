@@ -1,0 +1,24 @@
+.open abat1
+
+CREATE TABLE tester
+(
+id VARCHAR(6),
+name VARCHAR(60),
+dob VARCHAR(15),
+address1 VARCHAR(60),
+address2 VARCHAR(60),
+mailid VARCHAR(60),
+mobile VARCHAR(15)
+);
+
+CREATE TABLE bugdtls
+(
+id VARCHAR(6),
+btype VARCHAR(15),
+descr VARCHAR(60),
+severity VARCHAR(2),
+fncaff VARCHAR(3),
+workforce VARCHAR(3),
+endcusts VARCHAR(3)
+);
+

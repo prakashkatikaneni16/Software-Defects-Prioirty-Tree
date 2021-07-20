@@ -1,0 +1,73 @@
+digraph ID3_Tree {
+"0" [shape=box, style=filled, label="pfuncaffec
+", weight=1]
+"1" [shape=box, style=filled, label="workfaffec
+", weight=2]
+0 -> 1 [ label = "<=53.00"];
+"2" [shape=box, style=filled, label="custsaffec
+", weight=3]
+1 -> 2 [ label = "<=28.00"];
+"3" [shape=box, style=filled, label="1
+(15/2)
+", weight=4]
+2 -> 3 [ label = "<=28.00"];
+"4" [shape=box, style=filled, label="2
+(2)
+", weight=4]
+2 -> 4 [ label = ">28.00"];
+"5" [shape=box, style=filled, label="severity
+", weight=3]
+1 -> 5 [ label = ">28.00"];
+"6" [shape=box, style=filled, label="3
+(2)
+", weight=4]
+5 -> 6 [ label = "<=1.50"];
+"7" [shape=box, style=filled, label="custsaffec
+", weight=4]
+5 -> 7 [ label = ">1.50"];
+"8" [shape=box, style=filled, label="2
+(18/8)
+", weight=5]
+7 -> 8 [ label = "<=202.00"];
+"9" [shape=box, style=filled, label="1
+(1)
+", weight=5]
+7 -> 9 [ label = ">202.00"];
+"10" [shape=box, style=filled, label="workfaffec
+", weight=2]
+0 -> 10 [ label = ">53.00"];
+"11" [shape=box, style=filled, label="3
+(24)
+", weight=3]
+10 -> 11 [ label = "<=94.50"];
+"12" [shape=box, style=filled, label="severity
+", weight=3]
+10 -> 12 [ label = ">94.50"];
+"13" [shape=box, style=filled, label="custsaffec
+", weight=4]
+12 -> 13 [ label = "<=3.50"];
+"14" [shape=box, style=filled, label="3
+(4/1)
+", weight=5]
+13 -> 14 [ label = "<=298.00"];
+"15" [shape=box, style=filled, label="4
+(3)
+", weight=5]
+13 -> 15 [ label = ">298.00"];
+"16" [shape=box, style=filled, label="custsaffec
+", weight=4]
+12 -> 16 [ label = ">3.50"];
+"17" [shape=box, style=filled, label="4
+(15/2)
+", weight=5]
+16 -> 17 [ label = "<=162.00"];
+"18" [shape=box, style=filled, label="4
+(3)
+", weight=5]
+16 -> 18 [ label = ">162.00"];
+{rank=same; 0;};
+{rank=same; 1;10;};
+{rank=same; 2;5;11;12;};
+{rank=same; 3;4;6;7;13;16;};
+{rank=same; 8;9;14;15;17;18;};
+}

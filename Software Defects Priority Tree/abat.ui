@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>555</width>
+    <height>342</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Priority tree generation</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">color: rgb(0, 85, 0);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>60</y>
+      <width>361</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Bug Details</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>110</y>
+      <width>361</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Info.Gain of Test Type Attribute</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>10</y>
+      <width>361</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Tester Details</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>160</y>
+      <width>361</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Info.gain of Functionality Type Attribute</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>210</y>
+      <width>361</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Priority Tree .dot file generation</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>260</y>
+      <width>361</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Priority Tree .pdf generation</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
